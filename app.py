@@ -5,6 +5,7 @@ from dotenv import load_dotenv
 from google import genai
 
 # Load API key from the same folder as app.py
+
 load_dotenv(os.path.join(os.path.dirname(__file__), ".env"))
 
 API_KEY = os.getenv("GEMINI_API_KEY")
